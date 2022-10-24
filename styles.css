@@ -1,0 +1,45 @@
+/*GENERAL STYLES*/
+/*styles for the body section of the webpage*/
+body{
+    /*aligns the text inside to a certain position*/
+    text-align: center;
+    /*makes the background an image*/
+    background-image:url("https://img.freepik.com/premium-photo/background-from-blank-page-paper-wood_186380-653.jpg?w=1380");
+    /*makes it so the background image doesn't repeat itself*/
+    background-repeat: no-repeat;
+    /*adjusts the size of the background image*/
+    background-size: cover;
+    /*adds a new font to the text*/
+    font-family:  Apple Chancery, cursive;
+}
+
+
+
+/*ID STYLES*/
+/*Styles for the container that envelopes the main text of the webpage*/
+#textEnvelope{
+    /*creates a border around the container with a specific style*/
+    border-style:groove;
+    /*makes the border a specific color*/
+    border-color:rgb(27, 27, 27);
+    /*makes the container's backgorund a specific color*/
+    background-color: rgb(248, 248, 248); 
+    /*adjusts the amrgin of the container*/
+    margin:15%;
+    /*adjusts the padding for ther container's content*/
+    padding:25px;
+}
+
+/*CLASS STYLES*/
+
+/*styles for the container that holds the smallest text [<p> tags]*/
+.rantText{
+    /*creates a border around the container with a specific style*/
+    border-style: double;
+    /*makes the border a specific color*/
+    border-color:rgb(27, 27, 27);
+    /*adjusts the left-side margin of the container*/
+    margin-left: 15%;
+    /*adjusts the right-side margin of the container*/
+    margin-right: 15%;
+}
